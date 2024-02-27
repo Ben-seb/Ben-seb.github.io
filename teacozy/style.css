@@ -25,9 +25,8 @@ html {
 }
 
 nav {
-display: none;
+  display: none;
 }
-
 
 /* Section mission  */
 
@@ -53,7 +52,6 @@ p.black {
 }
 
 /* Section Month  */
-
 
 .header h2 {
   padding: 30px 30px 0px 30px;
@@ -86,10 +84,9 @@ p.black {
   flex-wrap: wrap;
 }
 img.resp {
-  width: 375px ;
+  width: 375px;
 }
 .content figure {
-
 }
 
 figcaption p {
@@ -116,7 +113,6 @@ figcaption p {
 .content-location {
   padding: 8px 0px 0px 0px;
   margin: 0px 0px 15px 0px;
-
 }
 
 /* Footer  */
@@ -138,56 +134,49 @@ figcaption p {
   font-size: 15px;
 }
 
-
-
 @media screen and (min-width: 768px) {
   nav {
     display: flex;
     align-items: center;
     list-style: none;
     padding: 0px 0px 0px 10px;
-    }
+  }
 
-    nav li, a {
-      padding: 0px 0px 0px 15px;
-      color: seashell;
-      }
+  nav li,
+  a {
+    padding: 0px 0px 0px 15px;
+    color: seashell;
+  }
 
-      .nav.container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid seashell;
-        padding: 0px 10px 0px 10px;
-        height: 4.31rem;
-      }
+  .nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    padding: 0px 10px 0px 10px;
+    height: 4.31rem;
+  }
 
-      .nav.container img {
-        width: 20%;
-        padding: 10px 0 0 10px;
-        margin: 0;
-        
-      }
+  .nav.container img {
+    width: 20%;
+    padding: 10px 0 0 10px;
+    margin: 0;
+  }
 
-      .container.mission p {
-        width: 80%;
-    
-      }
+  .container.mission p {
+    width: 80%;
+  }
 
-      .container.mission p {
-        width: 80%;
-    
-      }
+  .container.mission p {
+    width: 80%;
+  }
 
-      .container.mission {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-    
-      }
-
-
+  .container.mission {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
 }
 @media screen and (min-width: 1000px) {
   html {
@@ -195,13 +184,13 @@ figcaption p {
     background-color: black;
     font-family: Helvetica, Arial;
   }
-  
+
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
-  
+
   p {
     padding-bottom: 0.75rem;
     font-weight: bold;
@@ -211,9 +200,9 @@ figcaption p {
     margin: 0 auto;
     opacity: 0.8;
   }
-  
+
   /* Nav  */
-  
+
   .nav.container {
     display: flex;
     justify-content: space-between;
@@ -222,7 +211,7 @@ figcaption p {
     padding: 0px 10px 0px 10px;
     height: 4.31rem;
   }
-  
+
   .fixed {
     position: fixed;
     top: 0;
@@ -232,17 +221,17 @@ figcaption p {
     background-color: black;
     z-index: 3;
   }
-  
+
   nav {
     display: flex;
     align-items: center;
     list-style: none;
   }
-  
+
   nav li {
     padding: 0 0 0 1.25rem;
   }
-  
+
   nav a {
     color: seashell;
   }
@@ -250,18 +239,18 @@ figcaption p {
     color: gold;
     font-size: 105%;
   }
-  
+
   .nav img {
-    height: 85%
+    height: 85%;
   }
-  
+
   /* Section mission */
-  
+
   .container.mission {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
-  
+
     min-width: 75rem;
     min-height: 43.75rem;
     margin-bottom: 3.125rem;
@@ -270,18 +259,22 @@ figcaption p {
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .container.mission h2 {
     font-size: 1.75rem;
   }
-  
-  .black {
+
+  .background-black {
+    width: 100%;
     background-color: black;
-    padding: 8px 0 0.5rem 0;
-    font-weight: bold;
-    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
+  .background-black h2 {
+    margin: 0;
+    padding: 0;
+  }
   /* Section month  */
   .header {
     margin-bottom: 0.625rem;
@@ -292,13 +285,13 @@ figcaption p {
     width: 100%;
     margin: 0 auto;
   }
-  
+
   .content img {
     max-height: 12.5rem;
     max-width: 18.75rem;
     padding: 0 1.25rem 0 0;
   }
-  
+
   .content {
     display: flex;
     max-width: 62.5rem;
@@ -308,9 +301,9 @@ figcaption p {
     flex-direction: row;
     align-items: center;
   }
-  
+
   /* Section Location  */
-  
+
   .container.locations {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
     background-repeat: no-repeat;
@@ -323,7 +316,7 @@ figcaption p {
     justify-content: center;
     margin: 0 auto;
   }
-  
+
   .content-location {
     min-width: 18.75rem;
     min-height: 18.75rem;
@@ -337,7 +330,7 @@ figcaption p {
     margin: 1.25rem;
     font-size: 1.2rem;
   }
-  
+
   .header-locations {
     position: absolute;
     text-align: center;
@@ -346,44 +339,29 @@ figcaption p {
     top: 8.5rem;
     font-size: 1.25rem;
   }
-  
+
   /* Footer */
 
   .footer.container {
     max-width: 100%;
     margin: 0 auto;
   }
-  
+
   .footer-header,
   ul {
     text-align: center;
     list-style: none;
     line-height: 1.75rem;
   }
-  
+
   .copyright,
   a {
     text-align: left;
     margin-bottom: 0.75rem;
-  
+
     color: seashell;
   }
   .copyright p {
     padding-left: 50px;
   }
 }
-
-
-
-
-
-
-
-/* 
-@media screen and (min-width: 80rem) {
-    .container {
-      margin: 1em 2em;
-    }
-  } */
-
-/* 480px */
