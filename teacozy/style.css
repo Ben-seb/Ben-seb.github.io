@@ -12,163 +12,372 @@ html {
   box-sizing: border-box;
 }
 
-p {
-  padding-bottom: 0.75rem;
-  font-weight: bold;
-}
-.container {
-  max-width: 81.25rem;
-  margin: 0 auto;
-  opacity: 0.8;
-}
-
 /* Nav  */
 
 .nav.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid seashell;
-  padding: 0px 10px 0px 10px;
-  height: 4.31rem;
-}
-
-.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
   width: 100%;
-  background-color: black;
-  z-index: 3;
+  display: flex;
+}
+.nav.container img {
+  width: 30%;
+  padding: 10px 0 0 10px;
+  margin: 0 auto;
 }
 
 nav {
-  display: flex;
-  align-items: center;
-  list-style: none;
+display: none;
 }
 
-nav li {
-  padding: 0 0 0 1.25rem;
+
+/* Section mission  */
+
+.container .mission {
+  width: 100%;
 }
 
-nav a {
-  color: seashell;
-}
-nav a:hover {
-  color: gold;
-  font-size: 105%;
-}
-
-.nav img {
-  height: 3.125rem;
-}
-
-/* Section mission */
-
-.container.mission {
-  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-
-  min-width: 75rem;
-  min-height: 43.75rem;
-  margin-bottom: 3.125rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.container.mission h2 {
-  font-size: 1.75rem;
-}
-
-.black {
-  background-color: black;
-  padding: 8px 0 0.5rem 0;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
-/* Section month  */
-.header {
-  margin-bottom: 0.625rem;
-  font-size: 1.25rem;
-}
-.container.month {
+h2.black {
+  padding: 30px 30px 0px 30px;
+  font-family: Helvetica, Arial;
+  font-size: 50px;
+  line-height: 44px;
   text-align: center;
 }
 
-.content img {
-  max-height: 12.5rem;
-  max-width: 18.75rem;
-  padding: 0 1.25rem 0 0;
+p.black {
+  padding: 0px 30px 0px 30px;
+  font-family: Helvetica, Arial;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-style: italic;
 }
+
+/* Section Month  */
+
+
+.header h2 {
+  padding: 30px 30px 0px 30px;
+  font-family: Helvetica, Arial;
+  font-size: 30px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.header p {
+  padding: 5px 30px 0px 30px;
+  font-family: Helvetica, Arial;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-style: italic;
+}
+
+.container .mission {
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+}
+
+/* container month */
 
 .content {
   display: flex;
-  max-width: 62.5rem;
+  flex-direction: column;
+  align-content: center;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
-  margin-bottom: 3rem;
+}
+img.resp {
+  width: 375px ;
+}
+.content figure {
+
 }
 
-/* Section Location  */
+figcaption p {
+  text-align: center;
+  padding: 5px 0 0 0;
+  margin: 0 0 15px 0;
+  font-size: 16px;
+}
+
+.container.month {
+  margin: 0px 0px 25px 0px;
+}
+
+/* Section Locations  */
 
 .container.locations {
-  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  min-width: 75rem;
-  min-height: 43.75rem;
-  display: flex;
-  align-items: center;
-  position: relative;
-  justify-content: center;
+  text-align: center;
+  margin: 0px 0px 25px 0px;
 }
 
+.header-locations h2 {
+  font-size: 30px;
+}
 .content-location {
-  min-width: 18.75rem;
-  min-height: 18.75rem;
+  padding: 8px 0px 0px 0px;
+  margin: 0px 0px 15px 0px;
+
+}
+
+/* Footer  */
+
+.footer.container {
   text-align: center;
-  background-color: black;
-  position: relative;
-  line-height: 2.5;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 1.25rem;
-  font-size: 1.2rem;
+  margin: 0px 0px 50px 0px;
 }
 
-.header-locations {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  left: 0rem;
-  top: 8.5rem;
-  font-size: 1.25rem;
+.footer-header {
+  font-style: italic;
 }
 
-/* Footer */
-
-.footer-header,
-ul {
-  text-align: center;
-  list-style: none;
-  line-height: 1.75rem;
+.footer.container li {
+  padding: 0px 0px 5px 0ßx;
+}
+.copyright {
+  padding: 10px 0px 10px 0px;
+  font-size: 15px;
 }
 
-.copyright,
-a {
-  text-align: left;
-  margin-bottom: 0.75rem;
 
-  color: seashell;
+
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0px 0px 0px 10px;
+    }
+
+    nav li, a {
+      padding: 0px 0px 0px 15px;
+      color: seashell;
+      }
+
+      .nav.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid seashell;
+        padding: 0px 10px 0px 10px;
+        height: 4.31rem;
+      }
+
+      .nav.container img {
+        width: 20%;
+        padding: 10px 0 0 10px;
+        margin: 0;
+        
+      }
+
+      .container.mission p {
+        width: 80%;
+    
+      }
+
+      .container.mission p {
+        width: 80%;
+    
+      }
+
+      .container.mission {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    
+      }
+
+
 }
+@media screen and (min-width: 1000px) {
+  html {
+    color: seashell;
+    background-color: black;
+    font-family: Helvetica, Arial;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  p {
+    padding-bottom: 0.75rem;
+    font-weight: bold;
+  }
+  .container {
+    max-width: 81.25rem;
+    margin: 0 auto;
+    opacity: 0.8;
+  }
+  
+  /* Nav  */
+  
+  .nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    padding: 0px 10px 0px 10px;
+    height: 4.31rem;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+    z-index: 3;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  nav li {
+    padding: 0 0 0 1.25rem;
+  }
+  
+  nav a {
+    color: seashell;
+  }
+  nav a:hover {
+    color: gold;
+    font-size: 105%;
+  }
+  
+  .nav img {
+    height: 85%
+  }
+  
+  /* Section mission */
+  
+  .container.mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    min-width: 75rem;
+    min-height: 43.75rem;
+    margin-bottom: 3.125rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .container.mission h2 {
+    font-size: 1.75rem;
+  }
+  
+  .black {
+    background-color: black;
+    padding: 8px 0 0.5rem 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  /* Section month  */
+  .header {
+    margin-bottom: 0.625rem;
+    font-size: 1.25rem;
+  }
+  .container.month {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .content img {
+    max-height: 12.5rem;
+    max-width: 18.75rem;
+    padding: 0 1.25rem 0 0;
+  }
+  
+  .content {
+    display: flex;
+    max-width: 62.5rem;
+    justify-content: center;
+    margin: 0px auto 3rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* Section Location  */
+  
+  .container.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 75rem;
+    min-height: 43.75rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .content-location {
+    min-width: 18.75rem;
+    min-height: 18.75rem;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    line-height: 2.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  .header-locations {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0rem;
+    top: 8.5rem;
+    font-size: 1.25rem;
+  }
+  
+  /* Footer */
+
+  .footer.container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .footer-header,
+  ul {
+    text-align: center;
+    list-style: none;
+    line-height: 1.75rem;
+  }
+  
+  .copyright,
+  a {
+    text-align: left;
+    margin-bottom: 0.75rem;
+  
+    color: seashell;
+  }
+  .copyright p {
+    padding-left: 50px;
+  }
+}
+
+
+
+
+
+
 
 /* 
 @media screen and (min-width: 80rem) {
