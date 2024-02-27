@@ -165,10 +165,7 @@ figcaption p {
 
   .container.mission p {
     width: 80%;
-  }
-
-  .container.mission p {
-    width: 80%;
+    margin: 0 auto;
   }
 
   .container.mission {
