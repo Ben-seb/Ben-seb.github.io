@@ -11,18 +11,16 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
- 
+
 p {
-    padding-bottom: 0.75rem;
-    font-weight: bold;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
 }
 .container {
   max-width: 81.25rem;
   margin: 0 auto;
   opacity: 0.8;
 }
-
-
 
 /* Nav  */
 
@@ -59,8 +57,8 @@ nav a {
   color: seashell;
 }
 nav a:hover {
-    color:gold;
-    font-size: 105%;
+  color: gold;
+  font-size: 105%;
 }
 
 .nav img {
@@ -81,24 +79,18 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
-
-  
 
 .container.mission h2 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
-
 
 .black {
   background-color: black;
   padding: 8px 0 0.5rem 0;
   font-weight: bold;
   font-size: 1.1rem;
-
 }
-
 
 /* Section month  */
 .header {
@@ -113,7 +105,6 @@ nav a:hover {
   max-height: 12.5rem;
   max-width: 18.75rem;
   padding: 0 1.25rem 0 0;
-
 }
 
 .content {
@@ -123,92 +114,60 @@ nav a:hover {
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 3rem;
-
 }
-@media  (max-width: 48rem) {
-    .container {
-
-        flex-direction: column;
-        margin: 0 auto;
-        overflow: hidden;
-    }
- }
- @media  (max-width: 48rem) {
-    .content {
-
-        flex-direction: column;
-        margin: 0 auto;
-        overflow: hidden;
-    }
- }
-
- @media  (max-width: 48rem) {
-    .content img {
-        height: 100%;
-        min-width: 30.75rem;
-        padding: 0 1.25rem 0 0;
-      
-      }
- }
-
 
 /* Section Location  */
 
 .container.locations {
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    min-width: 75rem;
-    min-height: 43.75rem;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 75rem;
+  min-height: 43.75rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
 }
-@media  (max-width: 75rem) {
-    .container.locations {
-
-        background-size: cover;
-
-    }
- }
 
 .content-location {
-    min-width: 18.75rem;
-    min-height: 18.75rem;
-    text-align: center;
-    background-color: black;
-    position: relative;
-    line-height: 2.5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 1.25rem;
-    font-size: 1.2rem;
+  min-width: 18.75rem;
+  min-height: 18.75rem;
+  text-align: center;
+  background-color: black;
+  position: relative;
+  line-height: 2.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .header-locations {
- position: absolute;
- text-align: center;
- width: 100%;;
- left: 0rem;
- top: 8.5rem;
- font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0rem;
+  top: 8.5rem;
+  font-size: 1.25rem;
 }
 
 /* Footer */
 
-.footer-header, ul {
-    text-align: center;
-    list-style: none;
-    line-height: 1.75rem;
+.footer-header,
+ul {
+  text-align: center;
+  list-style: none;
+  line-height: 1.75rem;
 }
 
-.copyright, a {
-    text-align: left;
-    margin-bottom: 0.75rem;
-    
-    color: seashell;
+.copyright,
+a {
+  text-align: left;
+  margin-bottom: 0.75rem;
+
+  color: seashell;
 }
 
 /* 
@@ -218,4 +177,4 @@ nav a:hover {
     }
   } */
 
-  /* 480px */
+/* 480px */
