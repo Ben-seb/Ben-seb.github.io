@@ -1,0 +1,116 @@
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Universal Styles */
+
+body{
+    font-family: Trispace, Arial, Helvetica, sans-serif;
+    margin: 2% 15%;
+    background-color: seashell;
+}
+
+.container {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Header */
+
+
+/* table */
+
+
+#table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#table td, #table th {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+}
+
+#table i {
+    font-size: 21px;  
+}
+
+.logo {
+    width: 30px;
+}
+
+.heading {
+    text-align: center;
+}
+
+/* Fonts */
+
+.trispace-container, .space-mono-container {
+    font-family: Trispace;
+    padding: 0.5rem;
+}
+.trispace-container {
+    line-height: 1.4;
+}
+.italic-trispace {
+    font-style: italic;
+}
+.bold-trispace {
+    font-weight: bold;
+}
+
+
+.space-mono-container {
+    font-family: Space Mono;
+}
+.bold-space-mono {
+    font-weight: bold;
+}
+
+.italic-space-mono {
+    font-style: italic;
+}
+
+
+/* colors */
+
+.grey {
+    width: 15rem;
+    height: 5rem;
+    background-color: #EEEDEB ;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.peach {
+    width: 15rem;
+    height: 5rem;
+    background-color: #E0CCBE ;
+    text-align: center;
+    border: 1px solid ;
+    border: 1px solid white;
+}
+
+
+.sage {
+    width: 15rem;
+    height: 5rem;
+    background-color: #747264 ;
+    text-align: center;
+    border: 1px solid white;
+}
+
