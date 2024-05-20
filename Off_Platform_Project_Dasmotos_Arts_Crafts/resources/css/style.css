@@ -1,5 +1,49 @@
+
+
+/* univers. */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica;
 }
+
+
+/* header */
+header {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+    width: 100%;
+    height:115px;
+    margin: 70px 0px 70px 0px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+/* main */
+
+.heading {
+    font-size: 32px;
+    margin: 20px 0px 20px 0px;
+}
+
+.brushes-green {
+    background-color: mediumspringgreen;
+}
+
+.frames-red {
+    background-color: lightcoral;
+}
+
+.paint-blue {
+    background-color: skyblue;
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
+}
+
+
