@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Roboto&family=Work+Sans:ital,wght@0,800;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>My HTML Cheat Sheet</h1>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Some inline elements: usage and examples</th>
+            </tr>
+            <tr>
+                <th scope="col">Usage</th>
+                <th scope="col">Element</th>
+                <th scope="col">Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">A link</th>
+                <td>
+                    <code>
+                        &lt;a&gt; 
+                    </code>
+                </td>
+                <td>
+                    <code>
+                        <span class="flex">a href="https://example.org"&gt;a link to example.org&lt;/a&gt;</span>
+                    </code>
+                    <span class="flex"><a href="#">a link to example.org</a></span>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">An image</th>
+                <td>
+                    <code>
+                        &lt;img&gt;
+                    </code>
+                </td>
+                <td class="flex">
+                    <code>
+                        &lt;img src="beast.png" width="50"/&gt;
+                    </code>
+                    <img src="https://live.mdnplay.dev/en-US/docs/Learn/HTML/Cheatsheet/beast.png" alt="" width="30px">
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">An inline container</th>
+                <td>
+                    <code>
+                        &lt;span&gt;
+                    </code>
+                </td>
+                <td>
+                    <span class="flex">Used to group elements: for example, to</span>
+                    <code>
+                        <span class="flex">&lt;span style="color:blue">stylethem&lt;/span&gt;</span>
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3">Some Block elements: usage and examples</th>
+            </tr>
+            <tr>
+                <th scope="row">A simple paragraph</th>
+                <td>
+                    <code>
+                        &lt;p&gt; 
+                    </code>
+                </td>
+                <td>
+                    <code>
+                        <span class="flex">&lt;p&gt;I'm a paragraph&lt;/p&gt;</span>
+                        <span class="flex">&lt;p&gt;I'm another paragraph&lt;/p&gt;</span>
+                    </code>
+                    <span>I'm a paragraph</span>
+                    <span class="flex">I'm another paragraph</span>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">An unordered list</th>
+                <td>
+                    <code>
+                        <span class="flex">&lt;ul&gt; </span>
+                    </code>
+                </td>
+                <td>
+                    <code>
+                         <span class="flex">&lt;ul&gt;</span>
+                         <span class="flex">&nbsp;&nbsp;&lt;li&gt;I'm a item&lt;/li&gt;</span>
+                        <span class="flex">&nbsp;&nbsp;&lt;li&gt;I'm another item&lt;/li&gt;</span>
+                        <span class="flex">&lt;/ul&gt;</span>
+                    </code>
+                    <ul>
+                        <li>I'm an item</li>
+                        <li>I'm another item</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">An ordered list</th>
+                <td>
+                    <code>
+                        <span class="flex">&lt;ol&gt; </span>
+                    </code>
+                </td>
+                <td>
+                    <code>
+                        <span class="flex">&lt;ol&gt;</span>
+                        <span class="flex">&nbsp;&nbsp;&lt;li&gt;I'm a item&lt;/li&gt;</span>
+                        <span class="flex">&nbsp;&nbsp;&lt;li&gt;I'm another item&lt;/li&gt;</span>
+                        <span class="flex">&lt;/ol&gt;</span>
+                    </code>
+                    <ol>
+                        <li>I'm the first item</li>
+                        <li>I'm the second item</li>
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    background-color:#d2dcec ;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    background-color: #e0fbfc;
+    margin: 0 auto;
+    box-shadow: 5px 5px 2px 2px #888888;
+
+}
+
+table, th, td{
+    border: 1px solid #253237;
+    border-collapse: collapse;
+} 
+
+tr:hover { 
+    background-color: #a7fffc;
+}
+    
+td, 
+th {
+    padding: 5px 5px 5px 5px;
+}
+
